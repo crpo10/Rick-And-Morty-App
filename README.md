@@ -3,7 +3,7 @@
 
 Una aplicación Flutter para explorar el universo de Rick y Morty. Descubre personajes, episodios y más desde el multiverso más loco de la televisión.
 
-![https://res.cloudinary.com/crpo20/image/upload/v1691272351/lfg8oz1zjh32grcj86nd.png]
+[app_image](https://res.cloudinary.com/crpo20/image/upload/v1691272351/lfg8oz1zjh32grcj86nd.png)
 
 ## 🚀 Características
 
@@ -21,37 +21,6 @@ Una aplicación Flutter para explorar el universo de Rick y Morty. Descubre pers
    git clone https://github.com/tu-usuario/rick-and-morty-flutter-app.git
    cd rick-and-morty-flutter-app
    flutter run
-
-## 📂 Estructura del Proyecto 
-
-
-
-📦rick-and-morty-flutter-app
-│
-├── 📂assets
-│
-├── 📂lib
-│ │
-│ ├── 📂bloc
-│ │ ├── 📂character
-│ │ ├── 📂episode
-│ │ ├── 📂home
-│ │ └── 📂searchCharacter
-│ │
-│ ├── 📂models
-│ │
-│ ├── 📂repository
-│ │
-│ ├── 📂routes
-│ │
-│ ├── 📂services
-│ │
-│ ├── 📂ui
-│ │ ├── 📂Pages
-│ │ └── 📂widgets
-│ │
-│ └── 📜main.dart
-
 ### Patrón BLoC
 
 Optamos por el patrón BLoC para la gestión del estado debido a su capacidad para separar la lógica de negocio de la lógica de UI, haciendo que el código sea más mantenible y escalable.
