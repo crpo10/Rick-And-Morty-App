@@ -21,11 +21,11 @@ Una aplicación Flutter para explorar el universo de Rick y Morty. Descubre pers
    git clone https://github.com/tu-usuario/rick-and-morty-flutter-app.git
    cd rick-and-morty-flutter-app
    flutter run
-### Patrón BLoC
+## Patrón BLoC
 
 Optamos por el patrón BLoC para la gestión del estado debido a su capacidad para separar la lógica de negocio de la lógica de UI, haciendo que el código sea más mantenible y escalable.
 
-### BLoC de Personajes (Character BLoC)
+## BLoC de Personajes (Character BLoC)
 
 El `CharacterBloc` es el corazón de la gestión de estado para los personajes en nuestra aplicación. Usa el patrón BLoC para manejar eventos relacionados con personajes y emitir estados correspondientes.
 
@@ -64,7 +64,7 @@ La función `_hasReachedMax` es una función de utilidad que verifica si se ha a
 
 `CharacterBloc` juega un papel crucial en la gestión de la lógica relacionada con los personajes en la aplicación. Gracias a su diseño modular y a la separación de responsabilidades, es fácil de mantener y expandir en el futuro.
 
-### BLoC de Episodios (Episode BLoC)
+## BLoC de Episodios (Episode BLoC)
 
 Este BLoC es responsable de gestionar y emitir el estado relacionado con los Episodeos de Rick y Morty. 
 Utiliza el repositorio `EpisodeRepository` para recuperar datos.
@@ -73,7 +73,7 @@ Para solicitar la carga de personajes, emite el evento `GetEpisodes`.
 
 La logica Implementada en este BLoC es muy parecida a la antes mencionada.
 
-### BLoC de Busqueda de personajes (SearchCharacters BLoC)
+## BLoC de Busqueda de personajes (SearchCharacters BLoC)
 
 Este BLoC es responsable de gestionar y emitir el estado relacionado a la busque de personajes de Rick y Morty. 
 Utiliza el repositorio `CharacterRepository` para recuperar datos.
