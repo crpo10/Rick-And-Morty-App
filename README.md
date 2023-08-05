@@ -24,23 +24,33 @@ Una aplicación Flutter para explorar el universo de Rick y Morty. Descubre pers
 
 ## 📂 Estructura del Proyecto 
 
-📦rick-and-morty-flutter-app
 
-┣ 📂assets
-┣ 📂lib
-┃ ┣ 📂bloc                    
-┃ ┃ ┣ 📂character            
-┃ ┃ ┣ 📂episode               
-┃ ┃ ┣ 📂home                  
-┃ ┃ ┣ 📂searchCharacter       
-┃ ┣ 📂models                  
-┃ ┣ 📂repository              
-┃ ┣ 📂routes
-┃ ┣ 📂services
-┃ ┣ 📂ui
-┃ ┃ ┣ 📂Pages
-┃ ┃ ┗ 📂widgets
-┃ ┗ 📜main.dart
+
+📦rick-and-morty-flutter-app
+│
+├── 📂assets
+│
+├── 📂lib
+│ │
+│ ├── 📂bloc
+│ │ ├── 📂character
+│ │ ├── 📂episode
+│ │ ├── 📂home
+│ │ └── 📂searchCharacter
+│ │
+│ ├── 📂models
+│ │
+│ ├── 📂repository
+│ │
+│ ├── 📂routes
+│ │
+│ ├── 📂services
+│ │
+│ ├── 📂ui
+│ │ ├── 📂Pages
+│ │ └── 📂widgets
+│ │
+│ └── 📜main.dart
 
 ### Patrón BLoC
 
