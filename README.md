@@ -25,6 +25,7 @@ Una aplicación Flutter para explorar el universo de Rick y Morty. Descubre pers
 ## 📂 Estructura del Proyecto 
 
 📦rick-and-morty-flutter-app
+
 ┣ 📂assets
 ┣ 📂lib
 ┃ ┣ 📂bloc                    
@@ -118,7 +119,7 @@ Este BLoC tiene un diseño claro y conciso, y se asegura de mantener la lógica 
 
 
 ## 📄 Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la licencia MIT.
 
 ## ❓ FAQs
 ¿Esta aplicación utiliza la API oficial de Rick y Morty?
